@@ -35,7 +35,7 @@ namespace FBLA_Web.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+            Assert.AreEqual("Hello World! This is my about page!", result.ViewBag.Message);
         }
 
         [TestMethod]
@@ -48,7 +48,7 @@ namespace FBLA_Web.Tests.Controllers
             ViewResult result = controller.Contact() as ViewResult;
 
             // Assert
-            Assert.IsNotNull(result);
+            Assert.AreEqual("Hello World! This is my contact page!", result.ViewBag.Message);
         }
     }
 }
