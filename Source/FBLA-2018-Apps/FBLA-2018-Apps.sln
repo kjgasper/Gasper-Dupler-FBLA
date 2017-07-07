@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLA-Common", "FBLA-Common\FBLA-Common.csproj", "{FA61DCC2-688F-4C7E-8D25-709EA5469366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLA-Common.Tests", "FBLA-Common.Tests\FBLA-Common.Tests.csproj", "{0877C679-EA0F-4497-A287-EDE55C911CDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FA61DCC2-688F-4C7E-8D25-709EA5469366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA61DCC2-688F-4C7E-8D25-709EA5469366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA61DCC2-688F-4C7E-8D25-709EA5469366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0877C679-EA0F-4497-A287-EDE55C911CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0877C679-EA0F-4497-A287-EDE55C911CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0877C679-EA0F-4497-A287-EDE55C911CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0877C679-EA0F-4497-A287-EDE55C911CDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

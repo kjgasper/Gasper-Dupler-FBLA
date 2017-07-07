@@ -8,5 +8,9 @@ namespace FBLA_Common
 {
     public class Class1
     {
+        public String helloWorld() {
+            return "Hello world!";
+        }
+
     }
 }
